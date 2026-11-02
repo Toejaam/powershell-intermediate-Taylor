@@ -21,3 +21,8 @@ The four properties are:
 - **Department:** HR
 
 Each employee is stored as a PSCustomObject. This makes it easier to access and work with individual pieces of employee information.
+
+## Task 3: Use a foreach Loop
+
+I used a foreach loop to go through each employee record and display their first and last name. The loop processed all 75 employees. This is useful because it allows PowerShell to process multiple employee records automatically instead of handling them one at a time.
+

@@ -1,2 +1,5 @@
 $Employees = Import-Csv "C:\Users\student\Downloads\employees-1.csv"
-$Employees
+
+foreach ($Employee in $Employees) {
+    "$($Employee.FirstName) $($Employee.LastName)"
+}
