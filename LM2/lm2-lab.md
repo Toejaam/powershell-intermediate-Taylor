@@ -26,3 +26,6 @@ Each employee is stored as a PSCustomObject. This makes it easier to access and 
 
 I used a foreach loop to go through each employee record and display their first and last name. The loop processed all 75 employees. This is useful because it allows PowerShell to process multiple employee records automatically instead of handling them one at a time.
 
+## Task 4: Create an Employee Report
+
+I used Select-Object to create a report with each employee's full name, department, and location. These fields are useful because administrators can quickly identify employees and see which department and location they belong to.
