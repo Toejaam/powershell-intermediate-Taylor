@@ -34,3 +34,8 @@ I used Select-Object to create a report with each employee's full name, departme
 
 I used Export-Csv to save the employee report as employee-report.csv. The file was saved in my LM2 folder. This makes it easy to open the report in Excel and share the employee information.
 
+## Task 6: Convert Data to JSON
+
+I used ConvertTo-Json to convert the employee information into a JSON file named employee-report.json.
+
+CSV stores information in rows and columns, while JSON stores information in a structured format using properties and values. CSV is easier to open in Excel, but JSON is useful for applications, APIs, and automation. I think JSON is better when working with applications that need structured data.

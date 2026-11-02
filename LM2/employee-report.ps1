@@ -9,3 +9,5 @@ $Report = $Employees | Select-Object @{Name="EmployeeName";Expression={"$($_.Fir
 $Report
 
 $Report | Export-Csv ".\employee-report.csv" -NoTypeInformation
+
+$Employees | ConvertTo-Json | Set-Content ".\employee-report.json"
