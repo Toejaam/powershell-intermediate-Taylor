@@ -1,0 +1,6 @@
+"Name","SamAccountName","Enabled"
+"Guest","Guest","False"
+"krbtgt","krbtgt","False"
+"old.employee","oldemployee","False"
+"former.staff","formerstaff","False"
+"temp.employee","tempemployee","False"

@@ -1,0 +1,14 @@
+"Department","DistinguishedName","EmailAddress","Enabled","GivenName","Name","ObjectClass","ObjectGUID","OfficePhone","SamAccountName","SID","Surname","UserPrincipalName"
+,"CN=student,CN=Users,DC=nwtc,DC=local",,"True",,"student","user","02079c80-e8fa-4578-bae6-e78667d7dcfb",,"student","S-1-5-21-491484487-3565754782-1880736951-500",,
+,"CN=Guest,CN=Users,DC=nwtc,DC=local",,"False",,"Guest","user","1c6bfb41-79e0-4af0-bb7e-f2d4519068aa",,"Guest","S-1-5-21-491484487-3565754782-1880736951-501",,
+,"CN=krbtgt,CN=Users,DC=nwtc,DC=local",,"False",,"krbtgt","user","204ef161-7dd0-4b7b-b805-d4e8adee021d",,"krbtgt","S-1-5-21-491484487-3565754782-1880736951-502",,
+,"CN=Alex Jackson,OU=IT,OU=Departments,DC=nwtc,DC=local","ajackson1@nwtc.local","True","Alex","Alex Jackson","user","29088b75-aa86-44ae-b6eb-87094943ba0c","9205552710","ajackson1","S-1-5-21-491484487-3565754782-1880736951-1117","Jackson","ajackson1@nwtc.local"
+,"CN=Alex Wilson,OU=IT,OU=Departments,DC=nwtc,DC=local","awilson2@nwtc.local","True","Alex","Alex Wilson","user","8e28b1c5-c552-4ce2-8b29-4c371546c573","9205555558","awilson2","S-1-5-21-491484487-3565754782-1880736951-1118","Wilson","awilson2@nwtc.local"
+,"CN=Hayden Miller,OU=IT,OU=Departments,DC=nwtc,DC=local","hmiller3@nwtc.local","True","Hayden","Hayden Miller","user","86144c4c-741c-4928-8c95-6677ebafceda","9205554690","hmiller3","S-1-5-21-491484487-3565754782-1880736951-1119","Miller","hmiller3@nwtc.local"
+,"CN=svc_backup,OU=Service Accounts,DC=nwtc,DC=local",,"True",,"svc_backup","user","9599f097-7866-4c64-9391-7abe0a0e7ac1",,"svc_backup","S-1-5-21-491484487-3565754782-1880736951-1195",,"svc_backup@nwtc.local"
+,"CN=svc_sql,OU=Service Accounts,DC=nwtc,DC=local",,"True",,"svc_sql","user","4480fe9d-17d3-4fd3-a657-7c8a703a0760",,"svc_sql","S-1-5-21-491484487-3565754782-1880736951-1196",,"svc_sql@nwtc.local"
+,"CN=svc_web,OU=Service Accounts,DC=nwtc,DC=local",,"True",,"svc_web","user","b418504f-83e5-458d-bd04-bff7ef2a71f6",,"svc_web","S-1-5-21-491484487-3565754782-1880736951-1197",,"svc_web@nwtc.local"
+,"CN=svc_files,OU=Service Accounts,DC=nwtc,DC=local",,"True",,"svc_files","user","0e9144c7-2497-49b5-b54b-cb41d665027e",,"svc_files","S-1-5-21-491484487-3565754782-1880736951-1198",,"svc_files@nwtc.local"
+,"CN=old.employee,OU=HR,OU=Departments,DC=nwtc,DC=local",,"False",,"old.employee","user","f1a4972e-d1ca-4c11-9456-7c7e5693da0c",,"oldemployee","S-1-5-21-491484487-3565754782-1880736951-1199",,
+,"CN=former.staff,OU=HR,OU=Departments,DC=nwtc,DC=local",,"False",,"former.staff","user","53cdf8e8-8f91-49c4-87d5-613c039e72bf",,"formerstaff","S-1-5-21-491484487-3565754782-1880736951-1200",,
+,"CN=temp.employee,OU=HR,OU=Departments,DC=nwtc,DC=local",,"False",,"temp.employee","user","5491fdf5-cfcb-4739-ac0b-85f23a82d43e",,"tempemployee","S-1-5-21-491484487-3565754782-1880736951-1201",,
