@@ -21,7 +21,6 @@
 
 
 
-
 ## Task 2: Correct Missing User Information
 
 **Accounts reviewed:** 5
@@ -65,6 +64,8 @@ Format-Table -AutoSize
 ### Result
 
 I reviewed five Active Directory accounts and corrected Jordan Bennett's missing phone number. I excluded the student and the built-in Guest and krbtgt accounts from employee corrections. The final report confirmed that Jordan's department, email, and phone number are populated.
+
+
 
 ## Task 3: Correct Invalid Department Names
 
@@ -209,3 +210,34 @@ Select-Object Name,SamAccountName,Enabled
 
 The `temp.employee` account was not found. I created the `former.employee` account and set it to disabled immediately. I verified that its Enabled status is False.
 
+
+
+## Task 7: Export Active Directory User Accounts
+
+### Files Created
+- PowerShell script: `lm4-user-accounts.ps1`
+- CSV export: `lm4-user-accounts.csv`
+
+### Commands Used
+
+```powershell
+Get-ADUser -Filter * -Properties Department |
+Select-Object Name, Department, Enabled |
+Export-Csv lm4-user-accounts.csv
+```
+
+Run the script:
+
+```powershell
+.\lm4-user-accounts.ps1
+```
+
+View the exported CSV:
+
+```powershell
+Import-Csv .\lm4-user-accounts.csv
+```
+
+### Result
+
+Created a PowerShell script that exports all Active Directory user accounts into a CSV file. The CSV includes each account's name, department, and enabled status. I verified that the export worked and contained six user accounts.
